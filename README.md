@@ -21,10 +21,10 @@ npm i pod-monitoring
 import MonitoringHealthCheck from 'pod-monitoring';
 
 function MonitoringPage() {
-  const apiAddress = 'https://your-project-api-address.ir/status';
+  const yourApiAddress = 'https://your-project-api-address.ir/status';
 
   return (
-    <MonitoringHealthCheck apiAddress={apiAddress}>
+    <MonitoringHealthCheck apiAddress={yourApiAddress}>
   );
 }
 ```
@@ -44,10 +44,10 @@ Second, in the MonitoringPage component, import MonitoringHealthCheck from pod-m
 import MonitoringHealthCheck from 'pod-monitoring';
 
 function MonitoringPage() {
-  const apiAddress = 'https://your-project-api-address.ir/status';
+  const yourApiAddress = 'https://your-project-api-address.ir/status';
 
   return (
-    <MonitoringHealthCheck apiAddress={apiAddress}>
+    <MonitoringHealthCheck apiAddress={yourApiAddress}>
   );
 }
 ```
@@ -59,8 +59,8 @@ That's it. It's all of things that you should be done.
 ### Notice:
 - Don't insert any content in the monitoring page.
 - Use a public web service for monitoring.
-- Delay time for seeing content is atleast 100 miliseconds.
-- If your front app and backend service will be up, you should see `frontend:successed,backend:successed`
+- The maximum delay time for viewing content is 100 milliseconds.
+- If your front app and backend service is up, you should see `frontend:successed,backend:successed`
 
 <br>
 
