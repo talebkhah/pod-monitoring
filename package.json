@@ -1,6 +1,11 @@
 {
   "version": "1.0.0",
+  "name": "pod-monitoring",
+  "author": "Mohammad Talebkhah",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/talebkhah/pod-monitoring.git"
+  },
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -33,8 +38,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "pod-monitoring",
-  "author": "Mohammad Talebkhah",
   "module": "dist/pod-monitoring.esm.js",
   "size-limit": [
     {
