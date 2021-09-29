@@ -1,6 +1,6 @@
 # pod-monitoring
 
-A react component for the Pod monitoring projects
+A react component for the Pod projects monitoring
 
 ## Installation
 
