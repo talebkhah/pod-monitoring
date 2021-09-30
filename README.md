@@ -29,7 +29,7 @@ function MonitoringPage() {
 }
 ```
 
-### Step By Step Guid
+### Step By Step Guide
 
 First, create a page as a monitoring
 ```jsx
