@@ -1,6 +1,6 @@
 # pod-monitoring
 
-A react component for the Pod projects monitoring
+A React component for the Pod projects monitoring
 
 ## Installation
 
@@ -53,12 +53,13 @@ function MonitoringPage() {
 ```
 <br>
 
-That's it. It's all of things that you should be done.
+That's it. It's all the things that you should be done.
 <br>
 
 ### Notice:
 - Don't insert any content in the monitoring page.
 - Use a public web service for monitoring.
+- Use a public route in your front app.
 - The maximum delay time for viewing content is 100 milliseconds.
 - If your front app and backend service is up, you should see `frontend:successed,backend:successed`
 
